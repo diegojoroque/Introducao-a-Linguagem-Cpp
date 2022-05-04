@@ -44,6 +44,6 @@ int main(){
     cout << "Qual e sua banda favorita?" << endl;//realizar pergunta para o usuário
     cin >> banda; //Na entrada de dados há a inversão do símbolo para maior que.
 
-    cout << banda << " e a banda favorita.";
+    cout << banda << " e a sua banda favorita.";
     return 0;
 }
