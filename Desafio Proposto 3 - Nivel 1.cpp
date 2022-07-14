@@ -5,4 +5,33 @@ Módulo 1 - O começo da jornada!
 Disponível em https://www.youtube.com/watch?v=KcRW1rSC5nk e https://drive.google.com/file/d/1viOzA_458Cc5ibxaFcmCNiFViwcQUzGS/view
 
 Desafio 3
+
+Crie um Algoritmo em C++, que tenha uma função que calcula o fatorial de um número inteiro positivo. informado pelo usuário.
 */
+
+#include <iostream>
+
+using namespace std;
+
+int main (){
+    int num;
+    int fat = 1;
+    int cont = 1;
+
+    cout << "Informe um numero inteiro positivo:\n";
+    cin >> num;
+
+    while (cont <= num){
+        fat = fat * cont;
+        if (cont < num){
+            cout << cont << "*";
+        } else if (cont = num) {
+            cout << cont << "= " << fat <<endl;
+        }
+        cont+=1;
+    }
+
+    cout << "O fatorial de " << num << " e " << fat;
+
+    return 0;
+}
