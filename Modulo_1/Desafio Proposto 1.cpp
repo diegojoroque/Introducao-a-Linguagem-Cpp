@@ -14,15 +14,17 @@ Crie um Algoritmo em C++, que tenha uma função que calcula o valor de f(a), em
 
 using namespace std;
 
-main (){
-    float a;
+float a;
 
+void fa (float x) {
+    cout << "O valor de f(" << x << ") e " << (a*a)-(4*a)+5 << "." <<endl;
+}
+
+int main () {
     cout << "Informe um numero qualquer:\n";
     cin >> a;    
 
-    float fa = (a*a)-(4*a)+5;
-
-    cout << "O valor de f(" << a << ") e " << fa << "." <<endl;
+    fa(a);
 
     return 0;
 }
