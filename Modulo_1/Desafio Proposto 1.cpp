@@ -14,6 +14,28 @@ Crie um Algoritmo em C++, que tenha uma função que calcula o valor de f(a), em
 
 using namespace std;
 
+float funcao (float x){
+    return (x*x)-(4*x)+5;
+}
+
+float a,fa;
+
+int main (){
+    cout << "Informe um numero real:\n";
+    cin >> a;
+    fa = funcao(a);
+    cout << "O resultado da equacao e " << fa << ".\n";
+
+    return 0;
+}
+
+/*
+Código com função Void:
+
+#include <iostream>
+
+using namespace std;
+
 float a;
 
 void fa (float x) {
@@ -28,3 +50,4 @@ int main () {
 
     return 0;
 }
+*/
