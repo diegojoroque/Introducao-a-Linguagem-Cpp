@@ -16,11 +16,13 @@ using namespace std;
 
 float funcao (float x){
     return (x*x)-(4*x)+5;
+//    float fx;//Poderia ser declarado uma variavel para armazenar o valor da equação.
+//    fx = (x*x)-(4*x)+5;//Logo após declarado, ela receberia o valor da equação.
+//    return fx;//Nesse ponto, ela retornaria o valor armazenado na variável.
 }
 
-float a,fa;
-
 int main (){
+    float a,fa;
     cout << "Informe um numero real:\n";
     cin >> a;
     fa = funcao(a);
