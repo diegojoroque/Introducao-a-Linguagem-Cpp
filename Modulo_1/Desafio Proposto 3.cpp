@@ -9,6 +9,39 @@ Desafio 3
 Crie um Algoritmo em C++, que tenha uma função que calcula o fatorial de um número inteiro positivo. informado pelo usuário.
 */
 
+/*
+Código com utilização de função:
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int produto (int x){
+    int fatorial;
+    int x = 1;
+    int cont = 1;
+    while (cont <= x){
+        x=x*cont;
+        cont++;
+        return fatorial;
+    }
+}
+
+int main (){
+    int resultado;
+    
+    cout << "Informe um numero inteiro positivo:\n";
+    cin >> n;
+
+    resultado=produto(n);
+    cout << "O fatorial de " << n << " e " << resultado << ".\n";
+
+    return 0;
+}
+
+/*
+Código com utilização do while apenas, sem função:
 #include <iostream>
 
 using namespace std;
@@ -35,3 +68,4 @@ int main (){
 
     return 0;
 }
+*/
