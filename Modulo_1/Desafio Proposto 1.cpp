@@ -6,7 +6,7 @@ Disponível em https://www.youtube.com/watch?v=KcRW1rSC5nk e https://drive.googl
 
 Desafio 1
 
-Dada a função f(x)=x²-4x+5.
+Dada a função f(x)=x²-3x+5.
 Crie um Algoritmo em C++, que tenha uma função que calcula o valor de f(a), em que a é um número real informado pelo usuário.
 */
 
@@ -15,9 +15,9 @@ Crie um Algoritmo em C++, que tenha uma função que calcula o valor de f(a), em
 using namespace std;
 
 float funcao (float x){
-    return (x*x)-(4*x)+5;
+    return (x*x)-(3*x)+5;
 //    float fx;//Poderia ser declarado uma variavel para armazenar o valor da equação.
-//    fx = (x*x)-(4*x)+5;//Logo após declarado, ela receberia o valor da equação.
+//    fx = (x*x)-(3*x)+5;//Logo após declarado, ela receberia o valor da equação.
 //    return fx;//Nesse ponto, ela retornaria o valor armazenado na variável.
 }
 
@@ -41,7 +41,7 @@ using namespace std;
 float a;
 
 void fa (float x) {
-    cout << "O valor de f(" << x << ") e " << (a*a)-(4*a)+5 << "." <<endl;
+    cout << "O valor de f(" << x << ") e " << (a*a)-(3*a)+5 << "." <<endl;
 }
 
 int main () {
