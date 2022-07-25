@@ -17,24 +17,22 @@ Código com utilização de função:
 
 using namespace std;
 
-int produto (int x){
-    int fatorial;
-    int x = 1;
-    int cont = 1;
-    while (cont <= x){
-        x=x*cont;
-        cont++;
-        return fatorial;
+int fat (int x){
+    int fatorial=1;
+    for (int i=1; i<=x; i++) //i=1 informa que inicia em 1. //i<=x informa que fara essa repetição enquanto o i for menor ou igual a x //i++ informa que o acrescimo de i será de um a um.
+    {
+        fatorial*=i;
     }
-}
+    return fatorial;
+    }
 
 int main (){
-    int resultado;
+    int n, resultado;
     
     cout << "Informe um numero inteiro positivo:\n";
     cin >> n;
 
-    resultado=produto(n);
+    resultado=fat(n);
     cout << "O fatorial de " << n << " e " << resultado << ".\n";
 
     return 0;
