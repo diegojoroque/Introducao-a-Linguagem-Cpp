@@ -14,7 +14,7 @@ using namespace std;
 
 int main (){
     int var1;
-    int* pont1; //int* e utilizado ´para declarar ponteiros. Ponteiros sao identificado por um * entre o tipo e o nome da variavel.
+    int* pont1; //int* e utilizado para declarar ponteiros. Ponteiros sao identificado por um * entre o tipo e o nome da variavel.
 
     var1=5;
     pont1=&var1; //O & (e comercial) e utilizado para apontar para uma variavel que ja tem nome.
