@@ -5,7 +5,8 @@ Módulo 1 - O começo da jornada!
 Disponível em https://www.youtube.com/watch?v=KcRW1rSC5nk e https://drive.google.com/file/d/1viOzA_458Cc5ibxaFcmCNiFViwcQUzGS/view
 
 Desafio 5
-/*Em um programa de Moradia Popular, somente pessoas maiores de 21 anos e com renda abaixo de R$1200,00 podem participar. Crie um Algoritmo em C++, em que o usuário informa sua idade e sua renda, e é informado se ele pode ou não participar desse programa.*/
+
+Em um programa de Moradia Popular, somente pessoas maiores de 21 anos e com renda abaixo de R$1200,00 podem participar. Crie um Algoritmo em C++, em que o usuário informa sua idade e sua renda, e é informado se ele pode ou não participar desse programa.*/
 
 #include <iostream>
 
