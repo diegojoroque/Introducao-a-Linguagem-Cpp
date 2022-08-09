@@ -9,6 +9,9 @@ Desafio 6
 Crie um Algoritmo em C++, em que o usuário informa os gastos com alimentação de 5 famílias, calcula a média de gastos e diz de cada família, se seu gastou é abaixo da média, acima da média ou na média.
 */
 
+/*
+Minha primeira resolucao:
+
 #include <iostream>
 
 using namespace std;
@@ -67,6 +70,41 @@ int main () {
     } else {
         cout << "O valor gasto pela 5a familia foi abaixo da media." << endl;
     }   
+
+    return 0;
+}
+*/
+
+//Minha segunda resolucao:
+
+#include <iostream>
+
+using namespace std;
+
+int main () {
+    float gastofamilia[5];
+    float mediagasto;
+
+    for (int i=0; i<5; i++){
+        cout << "Qual o gasto da " << i+1 << "a familia?" << endl;
+        cin >> gastofamilia[i];
+        mediagasto+=gastofamilia[i];
+    }
+    
+    mediagasto/=5;
+    cout << "O gasto medio das 5 familias foi de R$" << mediagasto << "." << endl;
+
+    for (int i=0; i<5; i++){
+        if (gastofamilia[i] < mediagasto){
+            cout << "O gasto da familia " << i+1 << " foi abaixo da media." << endl;
+        } else if (gastofamilia[i] == mediagasto){
+            cout << "O gasto da familia " << i+1 << " foi o mesmo da media." << endl;
+        } else if (gastofamilia[i] > mediagasto){
+            cout << "O gasto da familia " << i+1 << " foi acima da media." << endl;
+        } else {
+            cout << "Houve algum erro :(" << endl;
+        }
+    }
 
     return 0;
 }
