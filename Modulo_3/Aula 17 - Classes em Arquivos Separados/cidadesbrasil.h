@@ -3,7 +3,7 @@ Modulo 3 - Classes
 Aula 17 - Classes em Arquivos Separados
 Disponível em https://www.youtube.com/watch?v=jrhofSNMalY
 
-O comando "g++ cidadesbrasil_main.cpp cidadesbrasil.cpp -o cidadesdobrasil.exe" é utilizado para compilar os arquivos ou seja, gerar o arquivo .EXE.
+O comando "g++ cidadesbrasil_main.cpp cidadesbrasil.cpp -o brcity.exe" é utilizado para compilar os arquivos ou seja, gerar o arquivo .EXE.
 */
 
 class cidadesbrasil{
