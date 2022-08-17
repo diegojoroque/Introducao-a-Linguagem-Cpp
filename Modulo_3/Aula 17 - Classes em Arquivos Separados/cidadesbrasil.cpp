@@ -13,7 +13,7 @@ O comando "g++ cidadesbrasil_main.cpp cidadesbrasil.cpp -o brcity.exe" é utiliz
 using namespace std;
 
 //construtor
-cidadesbrasil::cidadesbrasil(int pessoa=0, int fundacao=1500, float indice=0, string uf="Erro"){
+cidadesbrasil::cidadesbrasil(int pessoa=0, int fundacao=1500, float indice=0, int uf=0){
     populacao = pessoa;
     ano = fundacao;
     idh = indice;
@@ -41,9 +41,9 @@ float cidadesbrasil::getidh(){
     return idh;
 }
 
-void cidadesbrasil::setestado(string uf){
+void cidadesbrasil::setestado(int uf){
     estado = uf;
 }
-string cidadesbrasil::getestado(){
+int cidadesbrasil::getestado(){
     return estado;
 }

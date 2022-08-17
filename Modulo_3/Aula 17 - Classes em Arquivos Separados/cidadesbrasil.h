@@ -10,11 +10,11 @@ class cidadesbrasil{
     private:
         int populacao, ano;
         float idh;
-        string estado; 
+        int estado; 
 
     public:
         //construtor
-        cidadesbrasil(int pessoa, int fundacao, float indice, string uf);
+        cidadesbrasil(int pessoa, int fundacao, float indice, int uf);
 
         void setpopulacao (int pessoa);
         int getpopulacao ();
@@ -25,6 +25,6 @@ class cidadesbrasil{
         void setidh (float indice);
         float getidh ();
 
-        void setestado (string uf);
-        string getestado ();
+        void setestado (int uf);
+        int getestado ();
 };
